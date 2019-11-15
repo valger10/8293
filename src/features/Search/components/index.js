@@ -1,6 +1,5 @@
 import React from 'react'
 import _ from 'lodash'
-import onClickOutside from 'react-onclickoutside'
 import moment from 'moment'
 
 import RemoveIcon from '../../common/svg/RemoveIcon'
@@ -55,7 +54,7 @@ class Search extends React.Component {
   // starts search
   startSearch(searchTerm) {
     const { SearchDataAction } = this.props
-    if (searchTerm.length > 1) {
+    if (searchTerm.length > 0) {
       SearchDataAction(searchTerm)
     }
   }
@@ -197,4 +196,4 @@ class Search extends React.Component {
     )
   }
 }
-export default onClickOutside(Search)
+export default Search
