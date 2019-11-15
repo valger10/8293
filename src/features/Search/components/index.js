@@ -58,12 +58,6 @@ class Search extends React.Component {
       SearchDataAction(searchTerm)
     }
   }
-  // closes result div if clicked outside
-  handleClickOutside = () => {
-    this.setState({
-      isListOpen: false,
-    })
-  }
   // Handles value change
   handleValueChange(val) {
     this.isOpenFunc(true)
