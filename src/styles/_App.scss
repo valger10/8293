@@ -1,0 +1,20 @@
+html {
+  font-size: 62.5%;
+  body {
+    font-family: 'HM Sans Regular', 'ヒラギノ角ゴ Pro W3',
+      'Hiragino Kaku Gothic Pro', Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック',
+      'MS PGothic', sans-serif;
+    background: #faf9f8;
+    .app {
+      text-align: left;
+      .cssTricksWpr {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    h1 {
+      text-align: center;
+      padding-top: 2rem;
+    }
+  }
+}

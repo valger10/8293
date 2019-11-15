@@ -1,0 +1,27 @@
+.appHeader {
+  text-align: center;
+  .logoLink {
+    display: inline-block;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+    li {
+      margin: 0;
+      padding: 0;
+      margin-right: 1rem;
+      a {
+        color: black;
+        font-size: 1.5rem;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
